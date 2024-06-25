@@ -1,0 +1,8 @@
+Elegir una de estás opciones:
+
+Opción 1 - Menu
+Opción 2 - Consultas
+Opción 3 - Comprar
+
+
+Opción 0 - Salir

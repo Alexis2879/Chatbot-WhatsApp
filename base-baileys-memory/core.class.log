@@ -2,37 +2,87 @@
   key: {
     remoteJid: '51921064704@s.whatsapp.net',
     fromMe: false,
-    id: '57CCA8F4A3BCCCCADE',
+    id: 'B7663A32D4FA6F925A',
     participant: undefined
   },
-  messageTimestamp: 1718993151,
+  messageTimestamp: 1719291155,
   pushName: 'Giovanni',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    extendedTextMessage: ExtendedTextMessage { text: 'menu', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: 'menu',
   from: '51921064704'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_262efb4a-b703-4126-beb4-3420600cede6',
-  keyword: 'key_52f62743-8d9c-406f-8b2e-12ca03ea5dc6',
-  answer: '🙌 Hola bienvenido a  *yokihero* 🔥',
+  ref: 'ans_d1985328-9279-405c-8d17-4a3c421b3474',
+  keyword: 'key_148a3f5c-a35f-4fc0-ae1c-910eb654e4d8',
+  answer: 'Elegir una de estás opciones:\r\n' +
+    '\r\n' +
+    'Opción 1 - Menu\r\n' +
+    'Opción 2 - Consultas\r\n' +
+    'Opción 3 - Comprar\r\n' +
+    '\r\n' +
+    '\r\n' +
+    'Opción 0 - Salir',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '1e0730a9dd5d1edb470e9219ed4caafb'
+  refSerialize: '074b608156b1205e6e5d7c6897ec8c90'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51921064704@s.whatsapp.net',
+    fromMe: false,
+    id: '8E7A3908F308D530D2',
+    participant: undefined
+  },
+  messageTimestamp: 1719291160,
+  pushName: 'Giovanni',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '2', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '51921064704'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51921064704@s.whatsapp.net',
+    fromMe: false,
+    id: 'DA43913878D8043BD5',
+    participant: undefined
+  },
+  messageTimestamp: 1719291172,
+  pushName: 'Giovanni',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'como te llamas',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'como te llamas',
+  from: '51921064704'
 }
